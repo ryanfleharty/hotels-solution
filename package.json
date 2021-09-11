@@ -1,0 +1,20 @@
+{
+  "name": "homework-assignment",
+  "version": "1.0.0",
+  "description": "Assignment repo for GA",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ./**/*.spec.js --delay --sort --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cheerio": "^1.0.0-rc.6",
+    "mocha": "^8.3.2",
+    "mongo-unit": "^2.0.1",
+    "mongoose": "^5.12.8",
+    "puppeteer": "^9.0.0",
+    "supertest": "^6.1.3"
+  }
+}
